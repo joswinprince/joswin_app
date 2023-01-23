@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include joswin_app *.css
+recursive-include joswin_app *.csv
+recursive-include joswin_app *.html
+recursive-include joswin_app *.ico
+recursive-include joswin_app *.js
+recursive-include joswin_app *.json
+recursive-include joswin_app *.md
+recursive-include joswin_app *.png
+recursive-include joswin_app *.py
+recursive-include joswin_app *.svg
+recursive-include joswin_app *.txt
+recursive-exclude joswin_app *.pyc
